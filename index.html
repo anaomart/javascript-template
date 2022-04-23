@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Templates</title>
+    <!-- Main css file  -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start Setteings Box -->
+    <div class="settings-box">
+        <div class="toggle">
+            <i class="fa fa-gear "></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color='#ff9800'></li>
+                    <li data-color='#E91e63'></li>
+                    <li data-color='#009688'></li>
+                    <li data-color='#03a9f4'></li>
+                    <li data-color='#4caf50'></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background </h4>
+                <div class="random-background">
+                    <span class="yes " data-background="yes">Yes</span>
+                    <span class="no active" data-background="no">No</span>
+                </div>
+
+            </div>
+            <div class="option-box">
+                <h4>Show bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes " data-display="show">Show</span>
+                    <span class="no active" data-display="hide">Hide</span>
+                </div>
+
+            </div>
+            <div class="images">
+                <img src="images/zed-2553165.jpg">
+                <img src="images/zed-2553189.jpg">
+                <img src="images/wallpaperflare.com_wallpaper.jpg">
+                <img src="images/zed.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- end Setteings Box -->
+
+    <!-- Start  Nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section="about-us">
+            <div class="tooltip">About US</div>
+        </div>
+        <div class="bullet" data-section="our-skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section="gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section="timeline">
+            <div class="tooltip">TimeLIne </div>
+        </div>
+        <div class="bullet" data-section="features">
+            <div class="tooltip">Our Features </div>
+        </div>
+        <div class="bullet" data-section="testimonial">
+            <div class="tooltip">Testimonial </div>
+        </div>
+    </div>
+    <!-- End  Nav bullets -->
+
+    <!-- Start Landing page -->
+
+    <div class="landing-page">
+        <!-- Over lay -->
+        <div class="overlay"></div>
+        <!-- Header (Logo - nav ) -->
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="nav-container">
+                    <ul class="nav open">
+                        <li><a href="#" class="about-usa" data-section="about-us">About</a></li>
+                        <li><a href="#" data-section="our-skills">Our skills</a></li>
+                        <li><a href="#" data-section="gallery">Our Gallery </a> </li>
+                        <li><a href="#" data-section="contact">Contact</a></li>
+                    </ul>
+                    <button class="toggle-menu menu-active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Texts -->
+        <div class="introduction-text">
+            <h1>Web <span>Developer</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam hic a quod ex aliquid adipisci.</p>
+        </div>
+    </div>
+
+
+    <!-- End  Land page -->
+
+    <!-- Start About us -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About us</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero hic at suscipit. ipsum dolor sit amet consectetur, adip loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero
+                    hic at suscipit. ipsum dolor sit amet consectetur, adip loremlorem ipsum dolor sit amet consectetur, adip lorem</p>
+            </div>
+            <div class="image-box">
+                <img src="images/aboutus.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- end About us -->
+
+    <!-- Start  Our Skills  -->
+    <div class="our-skills">
+        <div class="container">
+            <h2>Our Skills </h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress"><span data-progress="85%"></span ></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Css</div>
+                <div class="skill-progress"><span data-progress="75%" ></span></div>
+
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress"><span data-progress="90%"></span></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Linux</div>
+                <div class="skill-progress"><span data-progress="80%"></span></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress"><span data-progress="70%"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end  Our Skills  -->
+
+    <!-- Start Our Gallery  -->
+    <div class="gallery">
+        <div class="images-box">
+            <h2>Our Gallery</h2>
+            <img src="images/wallpaperflare.com_wallpaper.jpg" alt="one">
+            <img src="images/a.jpg" alt="">
+            <img src="images/aboutus.jpg" alt="">
+            <img src="images/zed (2).jpg" alt="">
+            <img src="images/v.jpg" alt="">
+        </div>
+    </div>
+    <!-- end Our Gallery  -->
+
+    <!-- Start TimeLIne -->
+    <div class="timeline">
+        <h2>Timeline</h2>
+        <div class="container">
+            <div class="timeline-content">
+
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>First blood</h3>
+                        <p> Lorem ipsum dolor sit amet, fuga? Nihil vero hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero hic </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Nice Text </h3>
+                        <p> Omar ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero hic </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Legendary</h3>
+                        <p> Lorem ipsum dolor sit amet, fuga? Nihil vero hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero hic </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Nice Text </h3>
+                        <p> Omar ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Reiciendis, fuga? Nihil vero hic </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End TimeLIne -->
+
+    <!-- Start Feature -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="images/featurs/idea.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/featurs/money-bag.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/featurs/notebook.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/featurs/phone.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/featurs/rocket.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/featurs/support.png">
+                <h4>Development</h4>
+                <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <!-- End Feature -->
+    <!-- Start testimonial -->
+    <div class="testimonial">
+        <div class="container">
+            <h2>Testimonial</h2>
+            <div class="ts-box">
+                <p>This is a testimonial lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                <img src="images/zed (2).jpg">
+                <h4>King himself</h4>
+                <p>The King</p>
+            </div>
+            <div class="ts-box">
+                <p>This is a testimonial lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                <img src="images/zed (2).jpg">
+                <h4>john doan</h4>
+                <p>CEO OF himself</p>
+            </div>
+            <div class="ts-box">
+                <p>This is a testimonial lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                <img src="images/zed (2).jpg">
+                <h4>Omar Asharf</h4>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- End testimonial -->
+
+    <!-- Start contact Us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Name" name="name">
+                    <input type="text" placeholder="Phone" name="phone">
+                    <input type="email" placeholder="email" name="email">
+                    <input type="text" placeholder="subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="massage" placeholder="Your Massage"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End contact Us -->
+
+    <!-- Footer -->
+    <div class="footer">
+        Created with Love by Omar Asharf
+    </div>
+
+    <!--  Main js file -->
+    <script src="js/master.js" defer></script>
+</body>
+
+
+</html>
